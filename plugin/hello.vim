@@ -1,9 +1,9 @@
 "=============================================================================
-" File: hello.vim
+" File: hello-vim
 " Description: Vim plugin for saying Hello,Vim!
 " Author: Yasuhiro Asaka <y.grauwoelfchen@gmail.com>
 " Last Change: 2012 Aug 11
-" WebPage: http://github.com/grauwoelfchen/hello.vim
+" WebPage: http://github.com/grauwoelfchen/hello-vim
 " License: BSD
 " Version: 0.1
 scriptencoding utf-8
