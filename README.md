@@ -5,13 +5,20 @@ Hello,world! plugin
 ## Usage
 
 ```
-:call Say() # => Hello,Vim!
+:Say # => Hello,Vim!
 ```
 
+## Setup
+
+You can change words voice in .vimrc
+
 ```
-g:hello_say_words = 'Hello,Vim!'
-g:hello_say_voice = 'Alex' " for OS X's say
-nnoremap <silent> <buffer> <leader><leader> :call Say()<cr>
+" optional
+g:hello_say_words = 'Grüezi,Vim!'
+g:hello_say_voice = 'Fred' " for OS X's say
+
+" default keymap
+nnoremap <silent> <buffer> <leader><leader> :call <SID>Say()<cr>
 ```
 
-if you have `espeak` or `say` command, then hello-vim talks text with it :-)
+If you have `espeak` or `say` command, then hello-vim talks text with it :-)
